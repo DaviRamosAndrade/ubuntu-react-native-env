@@ -21,6 +21,7 @@ Step by step to install and configure react native, android emulator and genymot
     $ sudo apt-get install openjdk-8-jdk
  
 Check the main version of JDK.
+    
     $ sudo update-alternatives --config java
 
 #### Libs 32bits
@@ -29,7 +30,7 @@ Check the main version of JDK.
 ## Path Environment
 #### Create on home directory a new folder to setup Android SDK: Android/Sdk
 
-Download SDK: [Android SDK]: https://developer.android.com/studio/#downloads, choose the "Command line tools only".
+Download Android SDK: https://developer.android.com/studio/#downloads, choose the "Command line tools only".
 Extract the content to Android/Sdk folder.
 
 #### Add this lines on the ~/.bash_profile, ~/.profile, ~/.zshrc or ~/.bashrc
@@ -50,7 +51,7 @@ Open terminal and execute this command:
     $ sudo apt-get install virtualbox
 
 #### Install Genymotion
-Download [Genymotion]: https://www.genymotion.com/fun-zone/ and click on button “Download Genymotion Personal Edition”. Execute this command in folder you download the file.
+Download Genymotion: https://www.genymotion.com/fun-zone/ and click on button "Download Genymotion Personal Edition". Execute this command in folder you download the file.
 
     $ chmod +x genymotion-2.2.2_x64.bin
     $ ./genymotion-2.2.2_x64.bin
